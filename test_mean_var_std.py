@@ -10,7 +10,7 @@ import unittest
 import mean_var_std
 
 # Test Case
-class TestCalcFunc(unittest.TestCase):
+class TestCalculate(unittest.TestCase):
     def test_calc(self):
         actual = mean_var_std.calculate([1,2,3,4,5,6,7,8,9])
         expected = {
